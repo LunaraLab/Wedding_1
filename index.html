@@ -201,11 +201,12 @@
       <div class="squiggle mt-3 mb-4" style="filter:invert(1) opacity(.35);"></div>
 
       <!-- audio pill -->
-      <audio id="audioToggle" loop preload="none">
+      
+      <button id="audioToggle" class="btn-press absolute top-14 right-5 z-20 flex items-center gap-2 rounded-full px-3 py-2" style="background:rgba(251,243,227,.1); border:1px solid rgba(251,243,227,.35); backdrop-filter:blur(6px);">
+       <audio id="audioToggle" loop preload="none">
   <!-- Replace with an actual instrumental track, e.g. <source src="assets/shehnai-instrumental.mp3" type="audio/mpeg"> -->
           <source src="wedsong.mp3" type="audio/mpeg">
-      </audio>
-      <button id="audioToggle" class="btn-press absolute top-14 right-5 z-20 flex items-center gap-2 rounded-full px-3 py-2" style="background:rgba(251,243,227,.1); border:1px solid rgba(251,243,227,.35); backdrop-filter:blur(6px);">
+       </audio>
         <span id="audioBars" class="flex items-end gap-[2px] h-3">
           <span class="w-[2px] bg-current" style="height:40%;"></span>
           <span class="w-[2px] bg-current" style="height:90%;"></span>
